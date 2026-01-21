@@ -68,14 +68,13 @@ The project generates the following videos:
 - **NumPy**
 
 ---
-
 ## 📦 Requirements
 
 Install required libraries using:
 
-```bash
+bash
 pip install ultralytics supervision rfdetr opencv-python numpy pytesseract roboflow inference
-⚠️ This project was developed in Google Colab, so some commands (e.g. !pip install) are Colab-specific.
+
 
 ▶️ Usage
 1️⃣ Clone the repository
