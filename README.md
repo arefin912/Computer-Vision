@@ -78,17 +78,17 @@ pip install ultralytics supervision rfdetr opencv-python numpy pytesseract robof
 ## ▶️ Usage
 
 ### 1️⃣ Clone the repository
-```bash
+``bash
 git clone https://github.com/arefin912/Computer-Vision.git
 cd Computer-Vision
-2️⃣ Open the notebook
+###2️⃣ Open the notebook
 Open people_walking.ipynb in:
 
 Jupyter Notebook
 
 Google Colab (recommended)
 
-3️⃣ Run the notebook cells
+###3️⃣ Run the notebook cells
 Run the cells sequentially:
 
 Dependency Installation
@@ -105,7 +105,7 @@ Heatmap Generation
 
 Generates output_heatmap.mp4
 
-📹 Video Source
+##📹 Video Source
 The default video is fetched from Roboflow:
 
 https://media.roboflow.com/supervision/video-examples/people-walking.mp4
@@ -124,14 +124,14 @@ Virtual lines define IN and OUT zones
 
 Directional movement determines entry or exit
 
-🔥 Heatmap
+##🔥 Heatmap
 Detection points accumulate over frames
 
 Density is mapped using a color scale
 
 Highlights high-traffic areas clearly
 
-📊 Results
+##📊 Results
 Accurate detection and tracking of individuals
 
 Reliable people counting across defined zones
@@ -140,7 +140,7 @@ Clear visualization of foot traffic density
 
 Output videos saved in the working directory
 
-🙏 Credits
+##🙏 Credits
 YOLOv8 – Ultralytics
 
 RFDETR – Transformer-based detector
@@ -151,7 +151,7 @@ Video Source – Roboflow
 
 Inspired by computer vision tutorials from Roboflow and Ultralytics
 
-👤 Author
+##👤 Author
 Md. Shams Arefin
 🎓 CSE @ ULAB
 🤖 AI Engineering | Computer Vision | Deep Learning
