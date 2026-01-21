@@ -81,6 +81,7 @@ pip install ultralytics supervision rfdetr opencv-python numpy pytesseract robof
 bash
 git clone https://github.com/arefin912/Computer-Vision.git
 cd Computer-Vision
+
 ###2️⃣ Open the notebook
 Open people_walking.ipynb in:
 
@@ -88,7 +89,7 @@ Jupyter Notebook
 
 Google Colab (recommended)
 
-###3️⃣ Run the notebook cells
+##3️⃣ Run the notebook cells
 Run the cells sequentially:
 
 Dependency Installation
