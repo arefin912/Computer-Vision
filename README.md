@@ -45,15 +45,14 @@ The project generates the following videos:
 
 - 📌 **Annotated Detection Video**  
   `annotated_video.mp4`
-
+<img width="1440" height="809" alt="Screenshot 2026-01-22 at 4 17 15 am" src="https://github.com/user-attachments/assets/8445f867-0371-4cf2-b168-3407cfc86136" />
 - 📌 **Tracking & Counting Video**  
   `output_counting.mp4`
+<img width="1440" height="809" alt="Screenshot 2026-01-22 at 4 19 21 am" src="https://github.com/user-attachments/assets/f9154cdb-992b-4e8d-aaed-3ac0896afde4" />
 
 - 📌 **Heatmap Visualization Video**  
   `output_heatmap.mp4`
-
-> 📷 *You can add GIFs or screenshots here for better visual presentation.*
-<img width="1440" height="900" alt="Screenshot 2026-01-22 at 4 14 13 am" src="https://github.com/user-attachments/assets/545790a2-890f-46f9-b44c-b6f03faae817" />
+<img width="1440" height="809" alt="Screenshot 2026-01-22 at 4 18 18 am" src="https://github.com/user-attachments/assets/224d21bf-f1f6-429f-9def-32ba12fc0469" />
 
 
 ---
