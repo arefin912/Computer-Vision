@@ -78,7 +78,7 @@ pip install ultralytics supervision rfdetr opencv-python numpy pytesseract robof
 ## ▶️ Usage
 
 ### 1️⃣ Clone the repository
-``bash
+bash
 git clone https://github.com/arefin912/Computer-Vision.git
 cd Computer-Vision
 ###2️⃣ Open the notebook
