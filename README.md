@@ -75,23 +75,21 @@ Install required libraries using:
 bash
 pip install ultralytics supervision rfdetr opencv-python numpy pytesseract roboflow inference
 
+## ▶️ Usage
 
-▶️ Usage
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
+```bash
 git clone https://github.com/arefin912/Computer-Vision.git
 cd Computer-Vision
-
 2️⃣ Open the notebook
-
 Open people_walking.ipynb in:
 
-Jupyter Notebook or
+Jupyter Notebook
 
 Google Colab (recommended)
 
 3️⃣ Run the notebook cells
-
-Run cells sequentially:
+Run the cells sequentially:
 
 Dependency Installation
 
@@ -108,23 +106,18 @@ Heatmap Generation
 Generates output_heatmap.mp4
 
 📹 Video Source
-
 The default video is fetched from Roboflow:
 
 https://media.roboflow.com/supervision/video-examples/people-walking.mp4
-
-
-You can replace it with your own video by changing the video path in the notebook.
+You can replace it with your own video by updating the video path in the notebook.
 
 ⚙️ How It Works
 🔍 Detection
-
 RFDETR predicts bounding boxes for people
 
 Supervision annotates frames with labels and confidence
 
 🔁 Tracking & Counting
-
 YOLOv8 + BoT-SORT tracks people across frames
 
 Virtual lines define IN and OUT zones
@@ -132,7 +125,6 @@ Virtual lines define IN and OUT zones
 Directional movement determines entry or exit
 
 🔥 Heatmap
-
 Detection points accumulate over frames
 
 Density is mapped using a color scale
@@ -140,7 +132,6 @@ Density is mapped using a color scale
 Highlights high-traffic areas clearly
 
 📊 Results
-
 Accurate detection and tracking of individuals
 
 Reliable people counting across defined zones
@@ -150,7 +141,6 @@ Clear visualization of foot traffic density
 Output videos saved in the working directory
 
 🙏 Credits
-
 YOLOv8 – Ultralytics
 
 RFDETR – Transformer-based detector
@@ -162,11 +152,9 @@ Video Source – Roboflow
 Inspired by computer vision tutorials from Roboflow and Ultralytics
 
 👤 Author
-
 Md. Shams Arefin
 🎓 CSE @ ULAB
 🤖 AI Engineering | Computer Vision | Deep Learning
 
 📫 Email: shams.arefin.cse@ulab.edu.bd
-
 🔗 LinkedIn: https://www.linkedin.com/in/arefin99
