@@ -53,6 +53,8 @@ The project generates the following videos:
   `output_heatmap.mp4`
 
 > 📷 *You can add GIFs or screenshots here for better visual presentation.*
+<img width="1440" height="900" alt="Screenshot 2026-01-22 at 4 14 13 am" src="https://github.com/user-attachments/assets/545790a2-890f-46f9-b44c-b6f03faae817" />
+
 
 ---
 
