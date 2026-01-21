@@ -46,6 +46,7 @@ The project generates the following videos:
 - 📌 **Annotated Detection Video**  
   `annotated_video.mp4`
 <img width="1440" height="809" alt="Screenshot 2026-01-22 at 4 17 15 am" src="https://github.com/user-attachments/assets/8445f867-0371-4cf2-b168-3407cfc86136" />
+
 - 📌 **Tracking & Counting Video**  
   `output_counting.mp4`
 <img width="1440" height="809" alt="Screenshot 2026-01-22 at 4 19 21 am" src="https://github.com/user-attachments/assets/f9154cdb-992b-4e8d-aaed-3ac0896afde4" />
@@ -74,3 +75,99 @@ Install required libraries using:
 
 ```bash
 pip install ultralytics supervision rfdetr opencv-python numpy pytesseract roboflow inference
+⚠️ This project was developed in Google Colab, so some commands (e.g. !pip install) are Colab-specific.
+
+▶️ Usage
+1️⃣ Clone the repository
+git clone https://github.com/arefin912/Computer-Vision.git
+cd Computer-Vision
+
+2️⃣ Open the notebook
+
+Open people_walking.ipynb in:
+
+Jupyter Notebook or
+
+Google Colab (recommended)
+
+3️⃣ Run the notebook cells
+
+Run cells sequentially:
+
+Dependency Installation
+
+Object Detection
+
+Generates annotated_video.mp4
+
+People Tracking & Counting
+
+Generates output_counting.mp4
+
+Heatmap Generation
+
+Generates output_heatmap.mp4
+
+📹 Video Source
+
+The default video is fetched from Roboflow:
+
+https://media.roboflow.com/supervision/video-examples/people-walking.mp4
+
+
+You can replace it with your own video by changing the video path in the notebook.
+
+⚙️ How It Works
+🔍 Detection
+
+RFDETR predicts bounding boxes for people
+
+Supervision annotates frames with labels and confidence
+
+🔁 Tracking & Counting
+
+YOLOv8 + BoT-SORT tracks people across frames
+
+Virtual lines define IN and OUT zones
+
+Directional movement determines entry or exit
+
+🔥 Heatmap
+
+Detection points accumulate over frames
+
+Density is mapped using a color scale
+
+Highlights high-traffic areas clearly
+
+📊 Results
+
+Accurate detection and tracking of individuals
+
+Reliable people counting across defined zones
+
+Clear visualization of foot traffic density
+
+Output videos saved in the working directory
+
+🙏 Credits
+
+YOLOv8 – Ultralytics
+
+RFDETR – Transformer-based detector
+
+Supervision Library – Annotations & heatmaps
+
+Video Source – Roboflow
+
+Inspired by computer vision tutorials from Roboflow and Ultralytics
+
+👤 Author
+
+Md. Shams Arefin
+🎓 CSE @ ULAB
+🤖 AI Engineering | Computer Vision | Deep Learning
+
+📫 Email: shams.arefin.cse@ulab.edu.bd
+
+🔗 LinkedIn: https://www.linkedin.com/in/arefin99
