@@ -72,9 +72,9 @@ The project generates the following videos:
 
 Install required libraries using:
 
-bash
+```bash
 pip install ultralytics supervision rfdetr opencv-python numpy pytesseract roboflow inference
-
+```
 ## ▶️ Usage
 
 ### 1️⃣ Clone the repository
